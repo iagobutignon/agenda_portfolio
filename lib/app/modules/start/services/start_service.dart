@@ -10,6 +10,6 @@ class StartService {
   Future<void> startApp() async {
     // Delay pra mostrar a splash Screen, simulando algum processamento inicial
     await Future.delayed(const Duration(seconds: 3));
-    Modular.get<RoutesService>().navigateHome();
+    Modular.get<RoutesService>().navigateContactList();
   }
 }
